@@ -4,10 +4,58 @@
   <meta charset="utf-8">
   <title>מסלול הטיול שלי</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app"></div>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <button class="iconBtn hidden" id="btnBack" aria-label="חזרה">חזרה</button>
+      <div class="titleWrap">
+        <div class="title" id="appTitle">מסלול הטיול שלי</div>
+        <div class="subtitle" id="appSub"></div>
+      </div>
+      <a class="iconBtn" id="btnHome" href="#/">בית</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="viewHome">
+      <div class="panel">
+        <div class="panel__row">
+          <input id="q" class="search" placeholder="חיפוש מקום, עיר או מדינה" autocomplete="off">
+          <button class="btn" id="btnClear">נקה</button>
+        </div>
+      </div>
+      <div id="daysList" class="list"></div>
+    </section>
+
+    <section id="viewDay" class="hidden">
+      <div class="panel">
+        <div class="dayHeader">
+          <div class="dayHeader__meta">
+            <div class="dayHeader__title" id="dayTitle"></div>
+            <div class="dayHeader__sub" id="daySub"></div>
+          </div>
+          <a class="btn btn--ghost" id="btnMapsDay" target="_blank" rel="noopener">מפות לעיר</a>
+        </div>
+        <div class="infoGrid">
+          <div class="infoCard">
+            <div class="infoCard__label">לינה</div>
+            <div class="infoCard__value" id="dayLodging"></div>
+          </div>
+          <div class="infoCard">
+            <div class="infoCard__label">מעברים</div>
+            <ul class="infoCard__list" id="dayTransfers"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="sectionTitle">אטרקציות ומקומות</div>
+      <div id="placesList" class="places"></div>
+    </section>
+  </main>
+
   <script src="app.js"></script>
 </body>
 </html>
