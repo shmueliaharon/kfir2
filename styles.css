@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: #ffffff;
+}
+.card {
+  background: #162036;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 14px;
+}
+.place {
+  margin-top: 12px;
+}
+.place h3 {
+  margin: 0 0 6px 0;
+}
+.place p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+.place a {
+  display: inline-block;
+  margin-top: 6px;
+  color: #7aa2ff;
+  text-decoration: none;
+}

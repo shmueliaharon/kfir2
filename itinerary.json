@@ -1,0 +1,34 @@
+{
+  "title": "מסלול הטיול שלי - טיול למזרח 2026",
+  "days": [
+    {
+      "date": "23.12",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [
+        "טיסה מישראל לשדה התעופה סוואנאפום בבנגקוק"
+      ],
+      "places": [
+        {
+          "name": "Grand Palace",
+          "type": "אטרקציה",
+          "description": "מתחם הארמון המלכותי של תאילנד ואחד האתרים החשובים במדינה. כולל מבנים מפוארים, חצרות ומקדשים. לבוש צנוע חובה. מומלץ להגיע מוקדם בבוקר.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Grand+Palace+Bangkok"
+        },
+        {
+          "name": "Chatuchak Market",
+          "type": "אטרקציה",
+          "description": "שוק סוף השבוע הגדול בבנגקוק עם אלפי דוכנים של בגדים, אוכל ומזכרות. כדאי להגיע עם מים ולהתכונן להליכה ממושכת.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Chatuchak+Market+Bangkok"
+        },
+        {
+          "name": "Asiatique",
+          "type": "אטרקציה",
+          "description": "מתחם קניות ובילוי פתוח על גדות נהר הצ׳או פראיה. כולל חנויות, מסעדות וגלגל ענק. מתאים במיוחד לשעות הערב.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Asiatique+Bangkok"
+        }
+      ]
+    }
+  ]
+}
