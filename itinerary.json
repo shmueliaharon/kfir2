@@ -16,35 +16,146 @@
           "type": "אטרקציה",
           "description": "מתחם הארמון המלכותי של תאילנד ואחד האתרים החשובים והמרשימים במדינה. המתחם כולל מבנים מפוארים, חצרות ומקדשים, וביניהם מקדש בודהה מאמרלד. זהו אתר חובה לכל מבקר בבנגקוק.",
           "tips": "יש להגיע בלבוש צנוע: מכנס ארוך, חולצה עם שרוולים ונעליים סגורות. מומלץ להגיע מוקדם בבוקר כדי להימנע מעומס וחום.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Grand+Palace+Bangkok"
+          "website": "https://www.royalgrandpalace.th/en/visit/faq"
         },
         {
           "name": "Wat Pho - מקדש הבודהה השוכב",
           "type": "אטרקציה",
           "description": "אחד המקדשים העתיקים בבנגקוק, מפורסם בזכות פסל הבודהה השוכב העצום המצופה זהב. המקום נחשב גם למרכז מסורתי ללימודי עיסוי תאילנדי.",
           "tips": "אפשר לשלב עיסוי תאילנדי קצר בתוך המתחם. הליכה נוחה מהארמון המלכותי.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Wat+Pho+Bangkok"
+          "website": "https://www.watpho.com/"
         },
         {
           "name": "Wat Arun - מקדש השחר",
           "type": "אטרקציה",
           "description": "מקדש מרהיב השוכן על גדת נהר הצ'או פראיה, עם מגדל מרכזי גבוה המעוטר בפסיפסים צבעוניים. נחשב לאחד הסמלים של בנגקוק.",
           "tips": "מעבר בסירה קצרה מהצד השני של הנהר. מומלץ להגיע לקראת שקיעה.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Wat+Arun+Bangkok"
+          "website": "https://www.wat-arun.com/"
         },
         {
           "name": "Chatuchak Market - שוק צ'אטוצ'אק",
           "type": "שוק",
           "description": "שוק סוף השבוע הגדול ביותר בבנגקוק ואחד הגדולים בעולם. אלפי דוכנים של בגדים, אוכל, עבודות יד, מזכרות וצמחים.",
           "tips": "השוק פעיל בעיקר בסופי שבוע. להגיע עם מים, כובע וסבלנות. מומלץ לשמור נקודת מפגש.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Chatuchak+Market+Bangkok"
+          "website": "https://chatuchakmarket.org/"
         },
         {
           "name": "Asiatique - שוק לילה על הנהר",
           "type": "אטרקציה",
           "description": "מתחם קניות ובילוי פתוח על גדות נהר הצ'או פראיה. כולל חנויות, מסעדות, הופעות וגלגל ענק עם תצפית לילית.",
           "tips": "מתאים לערב רגוע. ניתן להגיע בשייט על הנהר.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Asiatique+Bangkok"
+          "website": "https://www.asiatiquethailand.com/"
+        }
+      ]
+    },
+    {
+      "date": "24.12",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": [
+        {
+          "name": "Jim Thompson House - בית ג'ים תומפסון",
+          "type": "אטרקציה",
+          "description": "מוזיאון בית עץ מסורתי עם סיפורו של ג'ים תומפסון ואוסף אמנות, בלב העיר.",
+          "tips": "מומלץ להזמין סיור מודרך במקום (זה חלק מהחוויה). להגיע בבוקר כדי להימנע מחום ועומס.",
+          "website": "https://jimthompsonhouse.org/visitor-information/"
+        },
+        {
+          "name": "MBK Center - קניון MBK",
+          "type": "קניות",
+          "description": "קניון גדול ופופולרי לקניות מגוונות, במיוחד אלקטרוניקה, מזכרות וביגוד במחירים נוחים.",
+          "tips": "לביקור יעיל: להחליט מראש מה מחפשים. לשים לב להבדלי איכות בחנויות השונות.",
+          "website": "https://www.mbk-center.co.th/"
+        },
+        {
+          "name": "Siam Paragon - סיאם פאראגון",
+          "type": "קניות",
+          "description": "קניון יוקרתי באזור סיאם, עם חנויות מותגים, מסעדות ומתחמי בילוי.",
+          "tips": "אם חם בחוץ, זה מקום טוב להפסקת מזגן, אוכל ושירותים נוחים באמצע היום.",
+          "website": "https://qa-siamparagon.onesiam.com/contact/"
+        },
+        {
+          "name": "Lumphini Park - פארק לומפיני",
+          "type": "אטרקציה",
+          "description": "הפארק העירוני המרכזי של בנגקוק, מתאים להליכה רגועה והפוגה מהעיר.",
+          "tips": "מומלץ להגיע אחר הצהריים-ערב כשקריר יותר. להביא מים ולתכנן 45-90 דקות.",
+          "website": "https://greener.bangkok.go.th/en/park/suan-lumpini/"
+        },
+        {
+          "name": "Yaowarat (Chinatown) - צ'יינהטאון",
+          "type": "אוכל",
+          "description": "אזור הרחוב Yaowarat מפורסם בשווקי ערב ודוכני אוכל, אווירה צפופה ותוססת.",
+          "tips": "הכי יפה בערב. מומלץ להגיע רעבים, להסתובב לאט ולהיצמד לרחובות הראשיים.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Yaowarat+Road+Bangkok"
+        }
+      ]
+    },
+    {
+      "date": "25.12",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": [
+        {
+          "name": "Chao Phraya Tourist Boat - שיט Hop-on Hop-off",
+          "type": "אטרקציה",
+          "description": "שיט לאורך נהר צ'או פראיה עם אפשרות לרדת ולעלות במזחים מרכזיים בעיר.",
+          "tips": "להתחיל בבוקר כדי לנצל את היום. לקחת כובע, מים, ולהחזיק את הטלפון זמין לניווט במזחים.",
+          "website": "https://www.chaophrayatouristboat.com/"
+        },
+        {
+          "name": "Tha Maharaj - מתחם טיילת וקניות ליד הנהר",
+          "type": "אוכל",
+          "description": "מתחם על הנהר עם בתי קפה, אוכל ומרפסת תצפית נעימה, מתאים לעצירה בין מזחים.",
+          "tips": "לעצירה קצרה לקפה וצילום. אם עמוס, פשוט להמשיך במעבורת למזח הבא.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Tha+Maharaj+Bangkok"
+        },
+        {
+          "name": "ICONSIAM - איקון סיאם",
+          "type": "קניות",
+          "description": "מרכז קניות גדול על הנהר, עם אזורי אוכל ואטרקציות פנימיות.",
+          "tips": "להגיע בשעות אחר הצהריים כשקריר יותר, לשלב ארוחת ערב ולהתרענן במזגן.",
+          "website": "https://www.iconsiam.com/"
+        },
+        {
+          "name": "Asiatique Sky - גלגל ענק אסיאטיק",
+          "type": "אטרקציה",
+          "description": "גלגל ענק במתחם Asiatique עם תצפית על הנהר והעיר, במיוחד בערב.",
+          "tips": "להגיע אחרי השקיעה. אם יש תור, אפשר קודם להסתובב בשוק ואז לעלות.",
+          "website": "https://www.asiatique-sky.com/"
+        }
+      ]
+    },
+    {
+      "date": "26.12",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": [
+        {
+          "name": "Ayutthaya Historical Park - טיול יום לאיוטאיה",
+          "type": "אטרקציה",
+          "description": "אתר היסטורי גדול של שרידי עיר הבירה העתיקה, מתאים לטיול יום מחוץ לבנגקוק.",
+          "tips": "לבחור סיור יום מאורגן או רכבת מוקדמת. להביא מים, כובע ונעליים נוחות.",
+          "website": "https://tfo.dot.go.th/locations/the-ayutthaya-historical-park/"
+        },
+        {
+          "name": "Damnoen Saduak Floating Market - שוק צף",
+          "type": "אטרקציה",
+          "description": "אופציה חלופית לטיול יום: שוק צף מפורסם באזור ראטצ'בורי.",
+          "tips": "מומלץ להגיע מוקדם בבוקר. לוודא מראש זמן יציאה והחזרה כדי לא להתעייף.",
+          "website": "https://floatingmarketthai.com/en/2019/11/18/damnoen-saduak-floating-market/"
+        },
+        {
+          "name": "Siam Square - סיבוב ערב קליל",
+          "type": "אטרקציה",
+          "description": "אזור הליכה וקניות צעיר ליד תחנת BTS Siam, מתאים לערב רגוע אחרי יום טיול.",
+          "tips": "אם חוזרים מאוחר, לבחור רק הליכה קצרה וקפה, ולחזור לנוח.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Siam+Square+Bangkok"
         }
       ]
     }
