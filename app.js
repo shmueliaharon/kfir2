@@ -1,5 +1,5 @@
 
-const VERSION = (new URLSearchParams(location.search).get('v') || '16');
+const VERSION = '17';
 const DATA_URL = 'itinerary.json?v=' + VERSION;
 
 function el(id){ return document.getElementById(id); }
@@ -12,7 +12,6 @@ function mapsSearchUrl(q){
 
 function parseRoute(){
   const h = (location.hash || '#/').replace(/^#/, '');
-  // routes: / , /day/0
   const parts = h.split('/').filter(Boolean);
   if (parts.length === 0) return { name:'home' };
   if (parts[0] === 'day' && parts[1]) return { name:'day', idx: Number(parts[1]) };
@@ -35,7 +34,6 @@ function renderHome(data){
   el('appTitle').textContent = data.title || 'מסלול הטיול שלי';
   el('appSub').textContent = 'בחר יום כדי לראות פירוט';
   hide(el('btnBack'));
-  el('q').value = el('q').value || '';
 
   const q = (el('q').value || '').trim().toLowerCase();
   const list = el('daysList');
@@ -46,7 +44,8 @@ function renderHome(data){
       const hay = [
         x.day.date, x.day.country, x.day.location, x.day.lodging,
         ...(x.day.transfers || []),
-        ...((x.day.places || []).map(p => p.name))
+        ...((x.day.places || []).map(p => p.name)),
+        ...((x.day.suggestions || []).map(p => p.name))
       ].join(' ').toLowerCase();
       return hay.includes(q);
     });
@@ -57,6 +56,7 @@ function renderHome(data){
     const date = day.date || ('יום ' + (idx + 1));
     const lodging = day.lodging || 'לא צוין';
     const count = (day.places || []).length;
+    const sugCount = (day.suggestions || []).length;
 
     return `
       <div class="dayCard">
@@ -66,7 +66,7 @@ function renderHome(data){
             <div class="dayCard__loc">${loc}</div>
             <div class="dayCard__meta">מדינה: ${country}<br>לינה: ${lodging}</div>
           </div>
-          <div class="badge">${count} מקומות</div>
+          <div class="badge">${count ? (count + ' מקומות') : (sugCount ? (sugCount + ' הצעות') : 'יום')}</div>
         </div>
         <div class="dayCard__actions">
           <a class="pill pill--primary" href="#/day/${idx}">פתח יום</a>
@@ -78,6 +78,32 @@ function renderHome(data){
 
   show(el('viewHome'));
   hide(el('viewDay'));
+}
+
+function placeCard(p, fallbackQuery){
+  const name = (p.name || '').toString();
+  const type = (p.type || 'מקום').toString();
+  const desc = (p.description || '').toString();
+  const tips = (p.tips || '').toString();
+  const website = (p.website || '').toString();
+  const url = website ? website : mapsSearchUrl(fallbackQuery || name);
+
+  return `
+    <div class="placeCard">
+      <div class="placeTop">
+        <div>
+          <div class="placeName">${name}</div>
+          <div class="placeType">${type}</div>
+        </div>
+        <a class="smallLink" href="${url}" target="_blank" rel="noopener">פתח במפות</a>
+      </div>
+      ${desc ? `<div class="placeDesc">${desc}</div>` : ''}
+      ${tips ? `<div class="placeTips"><b>טיפ:</b> ${tips}</div>` : ''}
+      <div class="placeActions">
+        <button class="smallBtn" data-copy="${name}">העתק שם</button>
+      </div>
+    </div>
+  `;
 }
 
 function renderDay(data, idx){
@@ -92,8 +118,10 @@ function renderDay(data, idx){
   show(el('btnBack'));
 
   el('dayTitle').textContent = (day.location || 'יום טיול') + (day.date ? ' (' + day.date + ')' : '');
-  el('daySub').textContent = (day.country ? ('מדינה: ' + day.country + ' | ') : '') + (day.places ? ('מקומות: ' + day.places.length) : '');
+  el('daySub').textContent = (day.country ? ('מדינה: ' + day.country + ' | ') : '') + ((day.places && day.places.length) ? ('מקומות: ' + day.places.length) : ((day.suggestions && day.suggestions.length) ? ('הצעות: ' + day.suggestions.length) : ''));
   el('dayLodging').textContent = day.lodging || 'לא צוין';
+
+  el('daySummary').textContent = day.summary || '';
 
   el('btnMapsDay').href = mapsSearchUrl((day.location || '') + ' ' + (day.country || ''));
 
@@ -101,34 +129,36 @@ function renderDay(data, idx){
   const t = day.transfers || [];
   transfers.innerHTML = t.length ? t.map(x => `<li>${x}</li>`).join('') : '<li>לא צוינו מעברים</li>';
 
+  const restCard = el('restaurantsCard');
+  const restList = el('dayRestaurants');
+  const r = day.restaurants || [];
+  if (r.length){
+    restList.innerHTML = r.map(x => `<li>${x}</li>`).join('');
+    restCard.style.display = '';
+  } else {
+    restList.innerHTML = '';
+    restCard.style.display = 'none';
+  }
+
   const places = el('placesList');
   const ps = day.places || [];
-  places.innerHTML = ps.map((p) => {
-    const name = (p.name || '').toString();
-    const type = (p.type || 'מקום').toString();
-    const desc = (p.description || '').toString();
-    const tips = (p.tips || '').toString();
-    const website = (p.website || '').toString();
+  places.innerHTML = ps.map(p => placeCard(p, (day.location || '') + ' ' + (day.country || ''))).join('');
 
-    return `
-      <div class="placeCard">
-        <div class="placeTop">
-          <div>
-            <div class="placeName">${name}</div>
-            <div class="placeType">${type}</div>
-          </div>
-          <a class="smallLink" href="${website ? website : mapsSearchUrl(name)}" target="_blank" rel="noopener">פתח במפות</a>
-        </div>
-        ${desc ? `<div class="placeDesc">${desc}</div>` : ''}
-        ${tips ? `<div class="placeTips"><b>טיפ:</b> ${tips}</div>` : ''}
-        <div class="placeActions">
-          <button class="smallBtn" data-copy="${name}">העתק שם</button>
-        </div>
-      </div>
-    `;
-  }).join('');
+  const suggestTitle = el('suggestTitle');
+  const suggestList = el('suggestList');
+  const sug = day.suggestions || [];
+  if (!ps.length && sug.length){
+    show(suggestTitle);
+    show(suggestList);
+    suggestList.innerHTML = sug.map(p => placeCard(p, (day.location || '') + ' ' + (day.country || ''))).join('');
+  } else {
+    hide(suggestTitle);
+    hide(suggestList);
+    suggestList.innerHTML = '';
+  }
 
-  places.querySelectorAll('[data-copy]').forEach(btn => {
+  // copy handlers
+  document.querySelectorAll('[data-copy]').forEach(btn => {
     btn.addEventListener('click', async () => {
       const text = btn.getAttribute('data-copy') || '';
       try { await navigator.clipboard.writeText(text); } catch(e) {}
@@ -144,9 +174,6 @@ function renderDay(data, idx){
 async function main(){
   const data = await loadData();
 
-  el('btnHome').addEventListener('click', (e) => {
-    // keep as link
-  });
   el('btnBack').addEventListener('click', () => { location.hash = '#/'; });
   el('btnClear').addEventListener('click', () => { el('q').value=''; renderHome(data); });
 
