@@ -2,86 +2,1592 @@
   "title": "מסלול הטיול שלי - טיול למזרח 2026",
   "days": [
     {
-      "date": "23.12",
+      "date": "23.12.2025",
       "country": "תאילנד",
       "location": "בנגקוק",
-      "lodging": "Siam Stadium Hostel",
+      "lodging": "siam stadium hostel",
       "transfers": [
-        "טיסה מישראל לשדה התעופה סוואנאפום (BKK)"
+        "טיסה מישראל לשדה תעופה סוונאפום בנגקוק"
+      ],
+      "places": [
+        {
+          "name": "grand place - מתחם מקדשי המלך",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=grand%20place%20-%20%D7%9E%D7%AA%D7%97%D7%9D%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%20%D7%94%D7%9E%D7%9C%D7%9A%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "chatuchak markt - שוק מקומי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=chatuchak%20markt%20-%20%D7%A9%D7%95%D7%A7%20%D7%9E%D7%A7%D7%95%D7%9E%D7%99%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "asiatique - שוק לילה על הנהר",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=asiatique%20-%20%D7%A9%D7%95%D7%A7%20%D7%9C%D7%99%D7%9C%D7%94%20%D7%A2%D7%9C%20%D7%94%D7%A0%D7%94%D7%A8%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "wat arun -מקדש",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=wat%20arun%20-%D7%9E%D7%A7%D7%93%D7%A9%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "iconsiam - קניון ענק",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=iconsiam%20-%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%A2%D7%A0%D7%A7%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "wat pho - מקדש הבודה השוכב",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=wat%20pho%20-%20%D7%9E%D7%A7%D7%93%D7%A9%20%D7%94%D7%91%D7%95%D7%93%D7%94%20%D7%94%D7%A9%D7%95%D7%9B%D7%91%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "dusit central park - פארק טבע מטורף",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=dusit%20central%20park%20-%20%D7%A4%D7%90%D7%A8%D7%A7%20%D7%98%D7%91%D7%A2%20%D7%9E%D7%98%D7%95%D7%A8%D7%A3%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "תצפית מגדל מאהאנקון  - Mahanakhon Tower",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%A6%D7%A4%D7%99%D7%AA%20%D7%9E%D7%92%D7%93%D7%9C%20%D7%9E%D7%90%D7%94%D7%90%D7%A0%D7%A7%D7%95%D7%9F%20%20-%20Mahanakhon%20Tower%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "sampeng market - שוק מקומי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=sampeng%20market%20-%20%D7%A9%D7%95%D7%A7%20%D7%9E%D7%A7%D7%95%D7%9E%D7%99%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "שיט בנהר??",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%98%20%D7%91%D7%A0%D7%94%D7%A8%3F%3F%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "chinatown - רחוב אוכל",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=chinatown%20-%20%D7%A8%D7%97%D7%95%D7%91%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "pak khlong talat - שוק פרחים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=pak%20khlong%20talat%20-%20%D7%A9%D7%95%D7%A7%20%D7%A4%D7%A8%D7%97%D7%99%D7%9D%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "24.12.2025",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "25.12.2025",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "26.12.2025",
+      "country": "תאילנד",
+      "location": "בנגקוק",
+      "lodging": "siam stadium hostel",
+      "transfers": [],
+      "places": [
+        {
+          "name": "טיול יום מחוץ לבנגקוק?",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%9E%D7%97%D7%95%D7%A5%20%D7%9C%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%3F%20%D7%91%D7%A0%D7%92%D7%A7%D7%95%D7%A7%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "27.12.2025",
+      "country": "תאילנד",
+      "location": "קופנגן",
+      "lodging": "delight resort - הד רין",
+      "transfers": [
+        "טיסה משדה תעופה דון מואנג בנגקוק לסורטאני",
+        "וואן ומעבורת סגור"
       ],
       "places": []
     },
     {
-      "date": "27.12",
+      "date": "28.12.2025",
       "country": "תאילנד",
       "location": "קופנגן",
-      "lodging": "מלון / גסטהאוס בקופנגן",
+      "lodging": "delight resort - הד רין",
+      "transfers": [],
+      "places": [
+        {
+          "name": "טיול יום - 42 האיים - Ang Thong",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20-%2042%20%D7%94%D7%90%D7%99%D7%99%D7%9D%20-%20Ang%20Thong%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טיול יום קוטאו ונאנג יואן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%A7%D7%95%D7%98%D7%90%D7%95%20%D7%95%D7%A0%D7%90%D7%A0%D7%92%20%D7%99%D7%95%D7%90%D7%9F%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טיול סובב קופנגן ברכב 4X4",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%A1%D7%95%D7%91%D7%91%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%91%D7%A8%D7%9B%D7%91%204X4%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "שוק אוכל יום ראשון - הד רין",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%95%D7%A7%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20-%20%D7%94%D7%93%20%D7%A8%D7%99%D7%9F%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טיול יום בגונגלים חופים ומפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%91%D7%92%D7%95%D7%A0%D7%92%D7%9C%D7%99%D7%9D%20%D7%97%D7%95%D7%A4%D7%99%D7%9D%20%D7%95%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "29.12.2025",
+      "country": "תאילנד",
+      "location": "קופנגן",
+      "lodging": "delight resort - הד רין",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "30.12.2025",
+      "country": "תאילנד",
+      "location": "קוסמוי",
+      "lodging": "p168 hostel samui - צאוונג קוסמוי",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "31.12.2025",
+      "country": "תאילנד",
+      "location": "קוסמוי",
+      "lodging": "p168 hostel samui - צאוונג קוסמוי",
+      "transfers": [],
+      "places": [
+        {
+          "name": "טיול 42 האיים - יותר זול מקופנגן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%2042%20%D7%94%D7%90%D7%99%D7%99%D7%9D%20-%20%D7%99%D7%95%D7%AA%D7%A8%20%D7%96%D7%95%D7%9C%20%D7%9E%D7%A7%D7%95%D7%A4%D7%A0%D7%92%D7%9F%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "אי החזירים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%20%D7%94%D7%97%D7%96%D7%99%D7%A8%D7%99%D7%9D%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "אומגות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%95%D7%9E%D7%92%D7%95%D7%AA%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טרקטורונים ברחבי האי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%A8%D7%A7%D7%98%D7%95%D7%A8%D7%95%D7%A0%D7%99%D7%9D%20%D7%91%D7%A8%D7%97%D7%91%D7%99%20%D7%94%D7%90%D7%99%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "רחבת מקדשים - wat plai laem",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%97%D7%91%D7%AA%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20-%20wat%20plai%20laem%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "שוק לילה כפר הדייגים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%95%D7%A7%20%D7%9C%D7%99%D7%9C%D7%94%20%D7%9B%D7%A4%D7%A8%20%D7%94%D7%93%D7%99%D7%99%D7%92%D7%99%D7%9D%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "central samui - מרכז קניות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=central%20samui%20-%20%D7%9E%D7%A8%D7%9B%D7%96%20%D7%A7%D7%A0%D7%99%D7%95%D7%AA%20%D7%A7%D7%95%D7%A1%D7%9E%D7%95%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "01.01.2026",
+      "country": "תאילנד",
+      "location": "קוסמוי",
+      "lodging": "p168 hostel samui - צאוונג קוסמוי",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "02.01.2026",
+      "country": "תאילנד",
+      "location": "קוסמוי",
+      "lodging": "p168 hostel samui - צאוונג קוסמוי",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "03.01.2026",
+      "country": "תאילנד",
+      "location": "קראבי",
+      "lodging": "Sabai Hotel Aonang\n390 שח",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "04.01.2026",
+      "country": "תאילנד",
+      "location": "קראבי",
+      "lodging": "Sabai Hotel Aonang\n390 שח",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "05.01.2026",
+      "country": "תאילנד",
+      "location": "קראבי",
+      "lodging": "Sabai Hotel Aonang\n390 שח",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "06.01.2026",
+      "country": "תאילנד",
+      "location": "קראבי",
+      "lodging": "Sabai Hotel Aonang\n390 שח",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "07.01.2026",
+      "country": "תאילנד",
+      "location": "פוקט",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "08.01.2026",
+      "country": "תאילנד",
+      "location": "פוקט",
+      "lodging": "patong Poshtel\n270 שח",
+      "transfers": [],
+      "places": [
+        {
+          "name": "מופע פנטזי - מתחם הופעות בלילה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%A4%D7%A2%20%D7%A4%D7%A0%D7%98%D7%96%D7%99%20-%20%D7%9E%D7%AA%D7%97%D7%9D%20%D7%94%D7%95%D7%A4%D7%A2%D7%95%D7%AA%20%D7%91%D7%9C%D7%99%D7%9C%D7%94%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "שייט 4 האיים כולל אי גימס בונד",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%204%20%D7%94%D7%90%D7%99%D7%99%D7%9D%20%D7%9B%D7%95%D7%9C%D7%9C%20%D7%90%D7%99%20%D7%92%D7%99%D7%9E%D7%A1%20%D7%91%D7%95%D7%A0%D7%93%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "שייט 7 האיים - מפרץ פאנג נגה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%207%20%D7%94%D7%90%D7%99%D7%99%D7%9D%20-%20%D7%9E%D7%A4%D7%A8%D7%A5%20%D7%A4%D7%90%D7%A0%D7%92%20%D7%A0%D7%92%D7%94%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "חוות פילים טיפולית",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%95%D7%95%D7%AA%20%D7%A4%D7%99%D7%9C%D7%99%D7%9D%20%D7%98%D7%99%D7%A4%D7%95%D7%9C%D7%99%D7%AA%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "אומגות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%95%D7%9E%D7%92%D7%95%D7%AA%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "הבודהה הגדולה - תצפית",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%91%D7%95%D7%93%D7%94%D7%94%20%D7%94%D7%92%D7%93%D7%95%D7%9C%D7%94%20-%20%D7%AA%D7%A6%D7%A4%D7%99%D7%AA%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "העיר העתיקה - מקדש צאלונג ופרה טונג",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A2%D7%99%D7%A8%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94%20-%20%D7%9E%D7%A7%D7%93%D7%A9%20%D7%A6%D7%90%D7%9C%D7%95%D7%A0%D7%92%20%D7%95%D7%A4%D7%A8%D7%94%20%D7%98%D7%95%D7%A0%D7%92%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "דרך באנגלה - רחוב מרכזי בפאטונג",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%93%D7%A8%D7%9A%20%D7%91%D7%90%D7%A0%D7%92%D7%9C%D7%94%20-%20%D7%A8%D7%97%D7%95%D7%91%20%D7%9E%D7%A8%D7%9B%D7%96%D7%99%20%D7%91%D7%A4%D7%90%D7%98%D7%95%D7%A0%D7%92%20%D7%A4%D7%95%D7%A7%D7%98%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "09.01.2026",
+      "country": "תאילנד",
+      "location": "פוקט",
+      "lodging": "patong Poshtel\n270 שח",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "10.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג מאי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "11.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג מאי",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "ריבוע העיר העתיקה והמקדשים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%99%D7%91%D7%95%D7%A2%20%D7%94%D7%A2%D7%99%D7%A8%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94%20%D7%95%D7%94%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Doi Suthep + wat phra lat - הר מקדשים ומפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Doi%20Suthep%20%2B%20wat%20phra%20lat%20-%20%D7%94%D7%A8%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20%D7%95%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טיול יום - Doi Inthanon, מקדשים ומפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20-%20Doi%20Inthanon%2C%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20%D7%95%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Skyline adventure - אומגות מטורפות, קצת רחוק",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Skyline%20adventure%20-%20%D7%90%D7%95%D7%9E%D7%92%D7%95%D7%AA%20%D7%9E%D7%98%D7%95%D7%A8%D7%A4%D7%95%D7%AA%2C%20%D7%A7%D7%A6%D7%AA%20%D7%A8%D7%97%D7%95%D7%A7%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "טיול למפלים הדביקים וdontewada - מפלים ובית קפה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%9C%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%94%D7%93%D7%91%D7%99%D7%A7%D7%99%D7%9D%20%D7%95dontewada%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%95%D7%91%D7%99%D7%AA%20%D7%A7%D7%A4%D7%94%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "חוות פילים - chai lai orchid",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%95%D7%95%D7%AA%20%D7%A4%D7%99%D7%9C%D7%99%D7%9D%20-%20chai%20lai%20orchid%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "ראפטינג אקסטרים מטורף",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%90%D7%A4%D7%98%D7%99%D7%A0%D7%92%20%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%99%D7%9D%20%D7%9E%D7%98%D7%95%D7%A8%D7%A3%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%9E%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "12.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג מאי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "13.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג מאי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "14.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג מאי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "15.01.2026",
+      "country": "תאילנד",
+      "location": "פאי",
+      "lodging": "",
       "transfers": [
-        "טיסה מבנגקוק לקוסמוי או סוראט תאני",
-        "מעבורת לקופנגן"
+        "צריך סגור וואן מצאנג מאי לפאי"
+      ],
+      "places": []
+    },
+    {
+      "date": "16.01.2026",
+      "country": "תאילנד",
+      "location": "פאי",
+      "lodging": "אישור השוק לילה",
+      "transfers": [],
+      "places": [
+        {
+          "name": "Pai Canyon - קניון עם נופים מטורפים (שקיעה)",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Pai%20Canyon%20-%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%A2%D7%9D%20%D7%A0%D7%95%D7%A4%D7%99%D7%9D%20%D7%9E%D7%98%D7%95%D7%A8%D7%A4%D7%99%D7%9D%20%28%D7%A9%D7%A7%D7%99%D7%A2%D7%94%29%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Morpaeng Waterfall - מפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Morpaeng%20Waterfall%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Pai Zipline - אומגות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Pai%20Zipline%20-%20%D7%90%D7%95%D7%9E%D7%92%D7%95%D7%AA%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Pam Bok - מפלים ומסלול בטבע",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Pam%20Bok%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%95%D7%9E%D7%A1%D7%9C%D7%95%D7%9C%20%D7%91%D7%98%D7%91%D7%A2%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Wat Phra That Mae Yen - מקדש בודהה לבנה ותצפית על פאי והאיזור",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Wat%20Phra%20That%20Mae%20Yen%20-%20%D7%9E%D7%A7%D7%93%D7%A9%20%D7%91%D7%95%D7%93%D7%94%D7%94%20%D7%9C%D7%91%D7%A0%D7%94%20%D7%95%D7%AA%D7%A6%D7%A4%D7%99%D7%AA%20%D7%A2%D7%9C%20%D7%A4%D7%90%D7%99%20%D7%95%D7%94%D7%90%D7%99%D7%96%D7%95%D7%A8%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "גשר במבוק - Kho Ku So Bamboo Bridge",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%A9%D7%A8%20%D7%91%D7%9E%D7%91%D7%95%D7%A7%20-%20Kho%20Ku%20So%20Bamboo%20Bridge%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Mae Yen Waterfall - מפלים טיול כמה שעות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Mae%20Yen%20Waterfall%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%98%D7%99%D7%95%D7%9C%20%D7%9B%D7%9E%D7%94%20%D7%A9%D7%A2%D7%95%D7%AA%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "yun lai, Two Huts Pai - תצפיות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=yun%20lai%2C%20Two%20Huts%20Pai%20-%20%D7%AA%D7%A6%D7%A4%D7%99%D7%95%D7%AA%20%D7%A4%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "17.01.2026",
+      "country": "תאילנד",
+      "location": "פאי",
+      "lodging": "אישור השוק לילה",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "18.01.2026",
+      "country": "תאילנד",
+      "location": "פאי",
+      "lodging": "אישור השוק לילה",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "19.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג ראי",
+      "lodging": "",
+      "transfers": [
+        "וואן מפאי לצאנג מאי",
+        "וואן / אוטובוס מצאנג מאי לצאנג ראי"
+      ],
+      "places": []
+    },
+    {
+      "date": "20.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג ראי",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "Chiang Rai Night Bazaar - שוק אוכל וקניות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Chiang%20Rai%20Night%20Bazaar%20-%20%D7%A9%D7%95%D7%A7%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%95%D7%A7%D7%A0%D7%99%D7%95%D7%AA%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Khun Korn Waterfall - מפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Khun%20Korn%20Waterfall%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "אופציה לטיול יום לנק הרשומות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%95%D7%A4%D7%A6%D7%99%D7%94%20%D7%9C%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20%D7%9C%D7%A0%D7%A7%20%D7%94%D7%A8%D7%A9%D7%95%D7%9E%D7%95%D7%AA%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Wat Rong Khun - המקדש הלבן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Wat%20Rong%20Khun%20-%20%D7%94%D7%9E%D7%A7%D7%93%D7%A9%20%D7%94%D7%9C%D7%91%D7%9F%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Wat Rong Suea Ten - המקדש הכחול",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Wat%20Rong%20Suea%20Ten%20-%20%D7%94%D7%9E%D7%A7%D7%93%D7%A9%20%D7%94%D7%9B%D7%97%D7%95%D7%9C%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "תצפית דוי טונג - לוודא שחלק מהטיול",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%AA%D7%A6%D7%A4%D7%99%D7%AA%20%D7%93%D7%95%D7%99%20%D7%98%D7%95%D7%A0%D7%92%20-%20%D7%9C%D7%95%D7%95%D7%93%D7%90%20%D7%A9%D7%97%D7%9C%D7%A7%20%D7%9E%D7%94%D7%98%D7%99%D7%95%D7%9C%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "Choui Fong Tea  - שדות תה (לשלב עם דוי טונג)",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Choui%20Fong%20Tea%20%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%AA%D7%94%20%28%D7%9C%D7%A9%D7%9C%D7%91%20%D7%A2%D7%9D%20%D7%93%D7%95%D7%99%20%D7%98%D7%95%D7%A0%D7%92%29%20%D7%A6%D7%90%D7%A0%D7%92%20%D7%A8%D7%90%D7%99%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "21.01.2026",
+      "country": "תאילנד",
+      "location": "צאנג ראי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "22.01.2026",
+      "country": "לאוס",
+      "location": "לואנג פראבנג",
+      "lodging": "",
+      "transfers": [
+        "צריך לסגור מעבר קרקעי - המעבר לוקח בין יום ליומיים. סוכנות נסיעות מקומית."
+      ],
+      "places": []
+    },
+    {
+      "date": "23.01.2026",
+      "country": "לאוס",
+      "location": "לואנג פראבנג",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "מפלי קונג סי - Kuang Si Waterfall",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A4%D7%9C%D7%99%20%D7%A7%D7%95%D7%A0%D7%92%20%D7%A1%D7%99%20-%20Kuang%20Si%20Waterfall%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "הר פו סי - שקיעה וארוחה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A8%20%D7%A4%D7%95%20%D7%A1%D7%99%20-%20%D7%A9%D7%A7%D7%99%D7%A2%D7%94%20%D7%95%D7%90%D7%A8%D7%95%D7%97%D7%94%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "סיור בכפר הפילים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%99%D7%95%D7%A8%20%D7%91%D7%9B%D7%A4%D7%A8%20%D7%94%D7%A4%D7%99%D7%9C%D7%99%D7%9D%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "Royal Palace Museum - מוזיאון לאומי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Royal%20Palace%20Museum%20-%20%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F%20%D7%9C%D7%90%D7%95%D7%9E%D7%99%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "מפלי Tad Sae - מפלים קטנים ובריכות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A4%D7%9C%D7%99%20Tad%20Sae%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A7%D7%98%D7%A0%D7%99%D7%9D%20%D7%95%D7%91%D7%A8%D7%99%D7%9B%D7%95%D7%AA%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "מקדשים - מקדש וואט סיאנג תונג",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20-%20%D7%9E%D7%A7%D7%93%D7%A9%20%D7%95%D7%95%D7%90%D7%98%20%D7%A1%D7%99%D7%90%D7%A0%D7%92%20%D7%AA%D7%95%D7%A0%D7%92%20%D7%9C%D7%95%D7%90%D7%A0%D7%92%20%D7%A4%D7%A8%D7%90%D7%91%D7%A0%D7%92%20%D7%9C%D7%90%D7%95%D7%A1"
+        }
+      ]
+    },
+    {
+      "date": "24.01.2026",
+      "country": "לאוס",
+      "location": "לואנג פראבנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "25.01.2026",
+      "country": "לאוס",
+      "location": "נונג קיאו",
+      "lodging": "",
+      "transfers": [
+        "צריך לסגור וואן / שייט בנהר"
+      ],
+      "places": []
+    },
+    {
+      "date": "26.01.2026",
+      "country": "לאוס",
+      "location": "נונג קיאו",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "27.01.2026",
+      "country": "לאוס",
+      "location": "נונג קיאו",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "28.01.2026",
+      "country": "לאוס",
+      "location": "ואנג ויאנג",
+      "lodging": "",
+      "transfers": [
+        "לסגור וואן ללואנג פרבנג ומשם רכבת לואנג ויאנג"
+      ],
+      "places": []
+    },
+    {
+      "date": "29.01.2026",
+      "country": "לאוס",
+      "location": "ואנג ויאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "30.01.2026",
+      "country": "לאוס",
+      "location": "ואנג ויאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "31.01.2026",
+      "country": "לאוס",
+      "location": "ואנג ויאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "01.02.2026",
+      "country": "לאוס",
+      "location": "ואנג ויאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "02.02.2026",
+      "country": "לאוס",
+      "location": "ויאנטין",
+      "lodging": "",
+      "transfers": [
+        "רכבת לויאנטין"
+      ],
+      "places": []
+    },
+    {
+      "date": "03.02.2026",
+      "country": "לאוס",
+      "location": "ויאנטין",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "wat si saket - מתחם מקדשים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=wat%20si%20saket%20-%20%D7%9E%D7%AA%D7%97%D7%9D%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20%D7%95%D7%99%D7%90%D7%A0%D7%98%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "patuxai - שער הניצחון",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=patuxai%20-%20%D7%A9%D7%A2%D7%A8%20%D7%94%D7%A0%D7%99%D7%A6%D7%97%D7%95%D7%9F%20%D7%95%D7%99%D7%90%D7%A0%D7%98%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "that luang -מקדש מרכזי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=that%20luang%20-%D7%9E%D7%A7%D7%93%D7%A9%20%D7%9E%D7%A8%D7%9B%D7%96%D7%99%20%D7%95%D7%99%D7%90%D7%A0%D7%98%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "פארק הבודהה - מחוץ לויאנטין",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%90%D7%A8%D7%A7%20%D7%94%D7%91%D7%95%D7%93%D7%94%D7%94%20-%20%D7%9E%D7%97%D7%95%D7%A5%20%D7%9C%D7%95%D7%99%D7%90%D7%A0%D7%98%D7%99%D7%9F%20%D7%95%D7%99%D7%90%D7%A0%D7%98%D7%99%D7%9F%20%D7%9C%D7%90%D7%95%D7%A1"
+        }
+      ]
+    },
+    {
+      "date": "04.02.2026",
+      "country": "לאוס",
+      "location": "תאקק",
+      "lodging": "",
+      "transfers": [
+        "לסגור סליפר / נסיעה באוטובוס במהלך היום"
+      ],
+      "places": []
+    },
+    {
+      "date": "05.02.2026",
+      "country": "לאוס",
+      "location": "לופ תאקק",
+      "lodging": "",
+      "transfers": [
+        "טוסטוס?"
       ],
       "places": [
         {
-          "name": "Haad Rin Beach",
-          "type": "חוף",
-          "description": "החוף המפורסם ביותר בקופנגן, ידוע בזכות מסיבות הפול מון אך ביום רגיל זהו חוף יפה עם חול לבן ומים צלולים.",
-          "tips": "בשעות היום רגוע ונעים, בערבי מסיבות עמוס ורועש.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Haad+Rin+Koh+Phangan"
-        },
-        {
-          "name": "Thong Sala",
-          "type": "עיירה",
-          "description": "העיירה המרכזית והנמל של קופנגן. כאן תמצאו מסעדות, חנויות, שוק אוכל ומרכזי השכרת אופנועים.",
-          "tips": "טוב לסידורים, אוכל וקניות קטנות.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Thong+Sala+Koh+Phangan"
+          "name": "https://mizrah.co.il/%D7%98%D7%94-%D7%A7%D7%A7-thakhek-2/",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=https%3A//mizrah.co.il/%25D7%2598%25D7%2594-%25D7%25A7%25D7%25A7-thakhek-2/%20%D7%9C%D7%95%D7%A4%20%D7%AA%D7%90%D7%A7%D7%A7%20%D7%9C%D7%90%D7%95%D7%A1"
         }
       ]
     },
     {
-      "date": "28.12",
-      "country": "תאילנד",
-      "location": "קופנגן",
-      "lodging": "מלון / גסטהאוס בקופנגן",
+      "date": "06.02.2026",
+      "country": "לאוס",
+      "location": "לופ תאקק",
+      "lodging": "",
       "transfers": [],
+      "places": []
+    },
+    {
+      "date": "07.02.2026",
+      "country": "לאוס",
+      "location": "לופ תאקק",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "08.02.2026",
+      "country": "לאוס",
+      "location": "פאקסה",
+      "lodging": "",
+      "transfers": [
+        "לסגור אוטובוס / סליפר / מיני ואן"
+      ],
+      "places": []
+    },
+    {
+      "date": "09.02.2026",
+      "country": "לאוס",
+      "location": "לופ פקסה",
+      "lodging": "",
+      "transfers": [
+        "טוסטוס?"
+      ],
       "places": [
         {
-          "name": "Haad Salad",
-          "type": "חוף",
-          "description": "חוף שקט ויפה בצפון האי, מתאים לרחצה ושנורקלינג רגוע.",
-          "tips": "להגיע בבוקר כשפחות עמוס.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Haad+Salad+Koh+Phangan"
-        },
-        {
-          "name": "Haad Yao",
-          "type": "חוף",
-          "description": "אחד החופים היפים בקופנגן עם רצועת חוף ארוכה ומים רדודים.",
-          "tips": "מתאים לשקיעה.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Haad+Yao+Koh+Phangan"
+          "name": "https://eastcardil.co.il/loop-pakse-laos/",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=https%3A//eastcardil.co.il/loop-pakse-laos/%20%D7%9C%D7%95%D7%A4%20%D7%A4%D7%A7%D7%A1%D7%94%20%D7%9C%D7%90%D7%95%D7%A1"
         }
       ]
     },
     {
-      "date": "29.12",
-      "country": "תאילנד",
-      "location": "קופנגן",
-      "lodging": "מלון / גסטהאוס בקופנגן",
+      "date": "10.02.2026",
+      "country": "לאוס",
+      "location": "לופ פקסה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "11.02.2026",
+      "country": "לאוס",
+      "location": "לופ פקסה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "12.02.2026",
+      "country": "לאוס",
+      "location": "דון דאט",
+      "lodging": "",
+      "transfers": [
+        "אוטובוס / וואן ומעבורת קצרה"
+      ],
+      "places": []
+    },
+    {
+      "date": "13.02.2026",
+      "country": "לאוס",
+      "location": "דון דאט",
+      "lodging": "",
+      "transfers": [
+        "התניידות בעיקר באופניים"
+      ],
+      "places": [
+        {
+          "name": "Li Phi Somphamit Waterfalls - מפלים מטורפים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Li%20Phi%20Somphamit%20Waterfalls%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%9E%D7%98%D7%95%D7%A8%D7%A4%D7%99%D7%9D%20%D7%93%D7%95%D7%9F%20%D7%93%D7%90%D7%98%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "Khong Phapheng - מפלים עצומים (קצת רחוקים)",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=Khong%20Phapheng%20-%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A2%D7%A6%D7%95%D7%9E%D7%99%D7%9D%20%28%D7%A7%D7%A6%D7%AA%20%D7%A8%D7%97%D7%95%D7%A7%D7%99%D7%9D%29%20%D7%93%D7%95%D7%9F%20%D7%93%D7%90%D7%98%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "טיול באופניים ברחבי האי + האי דון קון",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%91%D7%90%D7%95%D7%A4%D7%A0%D7%99%D7%99%D7%9D%20%D7%91%D7%A8%D7%97%D7%91%D7%99%20%D7%94%D7%90%D7%99%20%2B%20%D7%94%D7%90%D7%99%20%D7%93%D7%95%D7%9F%20%D7%A7%D7%95%D7%9F%20%D7%93%D7%95%D7%9F%20%D7%93%D7%90%D7%98%20%D7%9C%D7%90%D7%95%D7%A1"
+        },
+        {
+          "name": "שייט בנהר המקונג",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%20%D7%91%D7%A0%D7%94%D7%A8%20%D7%94%D7%9E%D7%A7%D7%95%D7%A0%D7%92%20%D7%93%D7%95%D7%9F%20%D7%93%D7%90%D7%98%20%D7%9C%D7%90%D7%95%D7%A1"
+        }
+      ]
+    },
+    {
+      "date": "14.02.2026",
+      "country": "לאוס",
+      "location": "דון דאט",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "15.02.2026",
+      "country": "קמבודיה",
+      "location": "סיאם ריפ",
+      "lodging": "",
+      "transfers": [
+        "אוטובוס סליפר / וואן - מעבר גבול"
+      ],
+      "places": []
+    },
+    {
+      "date": "16.02.2026",
+      "country": "קמבודיה",
+      "location": "סיאם ריפ",
+      "lodging": "",
       "transfers": [],
       "places": [
         {
-          "name": "Phaeng Waterfall",
-          "type": "טבע",
-          "description": "מפל וטבע בלב האי עם מסלולי הליכה קצרים ונקודות תצפית.",
-          "tips": "להביא נעליים נוחות ומים.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Phaeng+Waterfall+Koh+Phangan"
+          "name": "מקדשי אנגקור",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A7%D7%93%D7%A9%D7%99%20%D7%90%D7%A0%D7%92%D7%A7%D7%95%D7%A8%20%D7%A1%D7%99%D7%90%D7%9D%20%D7%A8%D7%99%D7%A4%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%D7%94"
         },
         {
-          "name": "Dome Sila Viewpoint",
-          "type": "תצפית",
-          "description": "נקודת תצפית מרהיבה על האי והים, מתאימה במיוחד לשעות אחר הצהריים.",
-          "tips": "גישה תלולה, להגיע בזהירות.",
-          "website": "https://www.google.com/maps/search/?api=1&query=Dome+Sila+Viewpoint+Koh+Phangan"
+          "name": "ביקור באגם טונלה סאפ והכפר הצף",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%91%D7%90%D7%92%D7%9D%20%D7%98%D7%95%D7%A0%D7%9C%D7%94%20%D7%A1%D7%90%D7%A4%20%D7%95%D7%94%D7%9B%D7%A4%D7%A8%20%D7%94%D7%A6%D7%A3%20%D7%A1%D7%99%D7%90%D7%9D%20%D7%A8%D7%99%D7%A4%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%D7%94"
+        },
+        {
+          "name": "קרקס קמבודי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A8%D7%A7%D7%A1%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%20%D7%A1%D7%99%D7%90%D7%9D%20%D7%A8%D7%99%D7%A4%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%D7%94"
+        },
+        {
+          "name": "טיול יום - פארק קולן - נוף וטבע מטורף ומפלים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%99%D7%95%D7%9D%20-%20%D7%A4%D7%90%D7%A8%D7%A7%20%D7%A7%D7%95%D7%9C%D7%9F%20-%20%D7%A0%D7%95%D7%A3%20%D7%95%D7%98%D7%91%D7%A2%20%D7%9E%D7%98%D7%95%D7%A8%D7%A3%20%D7%95%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%A1%D7%99%D7%90%D7%9D%20%D7%A8%D7%99%D7%A4%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%D7%94"
+        },
+        {
+          "name": "שווקי לילה - אוכל וברים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%95%D7%95%D7%A7%D7%99%20%D7%9C%D7%99%D7%9C%D7%94%20-%20%D7%90%D7%95%D7%9B%D7%9C%20%D7%95%D7%91%D7%A8%D7%99%D7%9D%20%D7%A1%D7%99%D7%90%D7%9D%20%D7%A8%D7%99%D7%A4%20%D7%A7%D7%9E%D7%91%D7%95%D7%93%D7%99%D7%94"
         }
       ]
+    },
+    {
+      "date": "17.02.2026",
+      "country": "קמבודיה",
+      "location": "סיאם ריפ",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "18.02.2026",
+      "country": "קמבודיה",
+      "location": "סיאם ריפ",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "19.02.2026",
+      "country": "וייטנאם",
+      "location": "הו צי מין (סייגון)",
+      "lodging": "",
+      "transfers": [
+        "אוטובוס סליפר / טיסה"
+      ],
+      "places": []
+    },
+    {
+      "date": "20.02.2026",
+      "country": "וייטנאם",
+      "location": "הו צי מין",
+      "lodging": "רובע -1 / 3",
+      "transfers": [],
+      "places": [
+        {
+          "name": "שייט בנהר המקונן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%20%D7%91%D7%A0%D7%94%D7%A8%20%D7%94%D7%9E%D7%A7%D7%95%D7%A0%D7%9F%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מנהרות המלחמה - מחוץ לעיר",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A0%D7%94%D7%A8%D7%95%D7%AA%20%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94%20-%20%D7%9E%D7%97%D7%95%D7%A5%20%D7%9C%D7%A2%D7%99%D7%A8%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "בניין הדואר הישן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%A0%D7%99%D7%99%D7%9F%20%D7%94%D7%93%D7%95%D7%90%D7%A8%20%D7%94%D7%99%D7%A9%D7%9F%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "קטדרלת נוטרדם",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%98%D7%93%D7%A8%D7%9C%D7%AA%20%D7%A0%D7%95%D7%98%D7%A8%D7%93%D7%9D%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מקדש קאו דאי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A7%D7%93%D7%A9%20%D7%A7%D7%90%D7%95%20%D7%93%D7%90%D7%99%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מוזיאון המלחמה - War Remnants Museum",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F%20%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94%20-%20War%20Remnants%20Museum%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "ארמון האיחוד (Reunification Palace)",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%9E%D7%95%D7%9F%20%D7%94%D7%90%D7%99%D7%97%D7%95%D7%93%20%28Reunification%20Palace%29%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "21.02.2026",
+      "country": "וייטנאם",
+      "location": "הו צי מין",
+      "lodging": "רובע -1 / 3",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "22.02.2026",
+      "country": "וייטנאם",
+      "location": "דאלאת",
+      "lodging": "",
+      "transfers": [
+        "סליפר"
+      ],
+      "places": []
+    },
+    {
+      "date": "23.02.2026",
+      "country": "וייטנאם",
+      "location": "דאלאת",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "גן הפרחים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%9F%20%D7%94%D7%A4%D7%A8%D7%97%D7%99%D7%9D%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "שוק הלילה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%95%D7%A7%20%D7%94%D7%9C%D7%99%D7%9C%D7%94%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "הבית המשוגע - בית בעיצוב מטורף",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%91%D7%99%D7%AA%20%D7%94%D7%9E%D7%A9%D7%95%D7%92%D7%A2%20-%20%D7%91%D7%99%D7%AA%20%D7%91%D7%A2%D7%99%D7%A6%D7%95%D7%91%20%D7%9E%D7%98%D7%95%D7%A8%D7%A3%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "datanla waterfalls - מפלי דאטלן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=datanla%20waterfalls%20-%20%D7%9E%D7%A4%D7%9C%D7%99%20%D7%93%D7%90%D7%98%D7%9C%D7%9F%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "xuan huong - אגם סואן הונג",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=xuan%20huong%20-%20%D7%90%D7%92%D7%9D%20%D7%A1%D7%95%D7%90%D7%9F%20%D7%94%D7%95%D7%A0%D7%92%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מפלים - דטנלה, פונגור, פיל, קם לי ודמברי",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20-%20%D7%93%D7%98%D7%A0%D7%9C%D7%94%2C%20%D7%A4%D7%95%D7%A0%D7%92%D7%95%D7%A8%2C%20%D7%A4%D7%99%D7%9C%2C%20%D7%A7%D7%9D%20%D7%9C%D7%99%20%D7%95%D7%93%D7%9E%D7%91%D7%A8%D7%99%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "סנפלינג מפלים חובה!!!",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A0%D7%A4%D7%9C%D7%99%D7%A0%D7%92%20%D7%9E%D7%A4%D7%9C%D7%99%D7%9D%20%D7%97%D7%95%D7%91%D7%94%21%21%21%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מונגולנד - מגלשת קשת בענן ומריו קארד",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%A0%D7%92%D7%95%D7%9C%D7%A0%D7%93%20-%20%D7%9E%D7%92%D7%9C%D7%A9%D7%AA%20%D7%A7%D7%A9%D7%AA%20%D7%91%D7%A2%D7%A0%D7%9F%20%D7%95%D7%9E%D7%A8%D7%99%D7%95%20%D7%A7%D7%90%D7%A8%D7%93%20%D7%93%D7%90%D7%9C%D7%90%D7%AA%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "24.02.2026",
+      "country": "וייטנאם",
+      "location": "דאלאת",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "25.02.2026",
+      "country": "וייטנאם",
+      "location": "דאלאת",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "26.02.2026",
+      "country": "וייטנאם",
+      "location": "הוי אן",
+      "lodging": "",
+      "transfers": [
+        "סליפר / טיסה"
+      ],
+      "places": []
+    },
+    {
+      "date": "27.02.2026",
+      "country": "וייטנאם",
+      "location": "הוי אן",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "סדנאת אוכל!",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%93%D7%A0%D7%90%D7%AA%20%D7%90%D7%95%D7%9B%D7%9C%21%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "טרה קואה - כפר חקלאי סמוך להוי אן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%A8%D7%94%20%D7%A7%D7%95%D7%90%D7%94%20-%20%D7%9B%D7%A4%D7%A8%20%D7%97%D7%A7%D7%9C%D7%90%D7%99%20%D7%A1%D7%9E%D7%95%D7%9A%20%D7%9C%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "העיר העתיקה והגשר היפני - ancient town",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A2%D7%99%D7%A8%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94%20%D7%95%D7%94%D7%92%D7%A9%D7%A8%20%D7%94%D7%99%D7%A4%D7%A0%D7%99%20-%20ancient%20town%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "שייט בנהר - thu bon",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%20%D7%91%D7%A0%D7%94%D7%A8%20-%20thu%20bon%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "סירות עגולות ביער הקוקוסים",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%99%D7%A8%D7%95%D7%AA%20%D7%A2%D7%92%D7%95%D7%9C%D7%95%D7%AA%20%D7%91%D7%99%D7%A2%D7%A8%20%D7%94%D7%A7%D7%95%D7%A7%D7%95%D7%A1%D7%99%D7%9D%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "חופים לא רחוקים - cua dai / an bang",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%95%D7%A4%D7%99%D7%9D%20%D7%9C%D7%90%20%D7%A8%D7%97%D7%95%D7%A7%D7%99%D7%9D%20-%20cua%20dai%20/%20an%20bang%20%D7%94%D7%95%D7%99%20%D7%90%D7%9F%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "28.02.2026",
+      "country": "וייטנאם",
+      "location": "הוי אן",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "01.03.2026",
+      "country": "וייטנאם",
+      "location": "דה נאנג",
+      "lodging": "לשקול להישאר יותר בהוי אן",
+      "transfers": [
+        "אוטובוס / מונית - נסיעה קצרה"
+      ],
+      "places": []
+    },
+    {
+      "date": "02.03.2026",
+      "country": "וייטנאם",
+      "location": "דה נאנג",
+      "lodging": "לשקול להישאר יותר בהוי אן",
+      "transfers": [],
+      "places": [
+        {
+          "name": "חוף - my khe",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%95%D7%A3%20-%20my%20khe%20%D7%93%D7%94%20%D7%A0%D7%90%D7%A0%D7%92%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "בה נה הילס - פארק בהר יפיפה (גשר הידיים)",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%94%20%D7%A0%D7%94%20%D7%94%D7%99%D7%9C%D7%A1%20-%20%D7%A4%D7%90%D7%A8%D7%A7%20%D7%91%D7%94%D7%A8%20%D7%99%D7%A4%D7%99%D7%A4%D7%94%20%28%D7%92%D7%A9%D7%A8%20%D7%94%D7%99%D7%93%D7%99%D7%99%D7%9D%29%20%D7%93%D7%94%20%D7%A0%D7%90%D7%A0%D7%92%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "גשר הדרקון",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%A9%D7%A8%20%D7%94%D7%93%D7%A8%D7%A7%D7%95%D7%9F%20%D7%93%D7%94%20%D7%A0%D7%90%D7%A0%D7%92%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "הרי השיש, מקדשי שיש ולידי בודהה - סון טרה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A8%D7%99%20%D7%94%D7%A9%D7%99%D7%A9%2C%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%20%D7%A9%D7%99%D7%A9%20%D7%95%D7%9C%D7%99%D7%93%D7%99%20%D7%91%D7%95%D7%93%D7%94%D7%94%20-%20%D7%A1%D7%95%D7%9F%20%D7%98%D7%A8%D7%94%20%D7%93%D7%94%20%D7%A0%D7%90%D7%A0%D7%92%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "03.03.2026",
+      "country": "וייטנאם",
+      "location": "דה נאנג",
+      "lodging": "לשקול להישאר יותר בהוי אן",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "04.03.2026",
+      "country": "וייטנאם",
+      "location": "דה נאנג",
+      "lodging": "לשקול להישאר יותר בהוי אן",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "05.03.2026",
+      "country": "וייטנאם",
+      "location": "פונג נה",
+      "lodging": "",
+      "transfers": [
+        "נסיעה באוטובוס"
+      ],
+      "places": []
+    },
+    {
+      "date": "06.03.2026",
+      "country": "וייטנאם",
+      "location": "פונג נה",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "טיול במערות - חובה לסגור מראש!",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%98%D7%99%D7%95%D7%9C%20%D7%91%D7%9E%D7%A2%D7%A8%D7%95%D7%AA%20-%20%D7%97%D7%95%D7%91%D7%94%20%D7%9C%D7%A1%D7%92%D7%95%D7%A8%20%D7%9E%D7%A8%D7%90%D7%A9%21%20%D7%A4%D7%95%D7%A0%D7%92%20%D7%A0%D7%94%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "07.03.2026",
+      "country": "וייטנאם",
+      "location": "פונג נה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "08.03.2026",
+      "country": "וייטנאם",
+      "location": "טאם קוק",
+      "lodging": "",
+      "transfers": [
+        "אוטובוס / סליפר"
+      ],
+      "places": []
+    },
+    {
+      "date": "09.03.2026",
+      "country": "וייטנאם",
+      "location": "טאם קוק",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "באי דין – מתחם מקדשים ופגודה ענקית – חצי שעה נסיעה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%90%D7%99%20%D7%93%D7%99%D7%9F%20%E2%80%93%20%D7%9E%D7%AA%D7%97%D7%9D%20%D7%9E%D7%A7%D7%93%D7%A9%D7%99%D7%9D%20%D7%95%D7%A4%D7%92%D7%95%D7%93%D7%94%20%D7%A2%D7%A0%D7%A7%D7%99%D7%AA%20%E2%80%93%20%D7%97%D7%A6%D7%99%20%D7%A9%D7%A2%D7%94%20%D7%A0%D7%A1%D7%99%D7%A2%D7%94%20%D7%98%D7%90%D7%9D%20%D7%A7%D7%95%D7%A7%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "העיר העתיקה הואה לו Hoa Lu Ancient Capital",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A2%D7%99%D7%A8%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94%20%D7%94%D7%95%D7%90%D7%94%20%D7%9C%D7%95%20Hoa%20Lu%20Ancient%20Capital%20%D7%98%D7%90%D7%9D%20%D7%A7%D7%95%D7%A7%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "האנג מואה – תצפית ופגודה מדהימה – 500 מדרגות",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%90%D7%A0%D7%92%20%D7%9E%D7%95%D7%90%D7%94%20%E2%80%93%20%D7%AA%D7%A6%D7%A4%D7%99%D7%AA%20%D7%95%D7%A4%D7%92%D7%95%D7%93%D7%94%20%D7%9E%D7%93%D7%94%D7%99%D7%9E%D7%94%20%E2%80%93%20500%20%D7%9E%D7%93%D7%A8%D7%92%D7%95%D7%AA%20%D7%98%D7%90%D7%9D%20%D7%A7%D7%95%D7%A7%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "פגודת bich dong",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%92%D7%95%D7%93%D7%AA%20bich%20dong%20%D7%98%D7%90%D7%9D%20%D7%A7%D7%95%D7%A7%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "שייט נהר נגו דונג / טראנג אן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%99%D7%99%D7%98%20%D7%A0%D7%94%D7%A8%20%D7%A0%D7%92%D7%95%20%D7%93%D7%95%D7%A0%D7%92%20/%20%D7%98%D7%A8%D7%90%D7%A0%D7%92%20%D7%90%D7%9F%20%D7%98%D7%90%D7%9D%20%D7%A7%D7%95%D7%A7%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "10.03.2026",
+      "country": "וייטנאם",
+      "location": "טאם קוק",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "11.03.2026",
+      "country": "וייטנאם",
+      "location": "הא לונג ביי",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "נסיעה מוקדם לשייט + לילה אחד - לסגור מראש",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A0%D7%A1%D7%99%D7%A2%D7%94%20%D7%9E%D7%95%D7%A7%D7%93%D7%9D%20%D7%9C%D7%A9%D7%99%D7%99%D7%98%20%2B%20%D7%9C%D7%99%D7%9C%D7%94%20%D7%90%D7%97%D7%93%20-%20%D7%9C%D7%A1%D7%92%D7%95%D7%A8%20%D7%9E%D7%A8%D7%90%D7%A9%20%D7%94%D7%90%20%D7%9C%D7%95%D7%A0%D7%92%20%D7%91%D7%99%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "12.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "13.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "מולוזיאום הו צי מין",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%9C%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9D%20%D7%94%D7%95%20%D7%A6%D7%99%20%D7%9E%D7%99%D7%9F%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "אגם הואן קיאם ומקדש טראן קואוק",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%92%D7%9D%20%D7%94%D7%95%D7%90%D7%9F%20%D7%A7%D7%99%D7%90%D7%9D%20%D7%95%D7%9E%D7%A7%D7%93%D7%A9%20%D7%98%D7%A8%D7%90%D7%9F%20%D7%A7%D7%95%D7%90%D7%95%D7%A7%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "העיר העתיקה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A2%D7%99%D7%A8%20%D7%94%D7%A2%D7%AA%D7%99%D7%A7%D7%94%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "רחוב הרכבת",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%97%D7%95%D7%91%20%D7%94%D7%A8%D7%9B%D7%91%D7%AA%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "מקדש הספרות - Temple of Literature",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A7%D7%93%D7%A9%20%D7%94%D7%A1%D7%A4%D7%A8%D7%95%D7%AA%20-%20Temple%20of%20Literature%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        },
+        {
+          "name": "בית האופרה",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%AA%20%D7%94%D7%90%D7%95%D7%A4%D7%A8%D7%94%20%D7%94%D7%90%D7%A0%D7%95%D7%99%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "14.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "15.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "16.03.2026",
+      "country": "וייטנאם",
+      "location": "הא גיאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "17.03.2026",
+      "country": "וייטנאם",
+      "location": "לופ הא גיאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "לופ ויאטנם - לסגור מראש",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%95%D7%A4%20%D7%95%D7%99%D7%90%D7%98%D7%A0%D7%9D%20-%20%D7%9C%D7%A1%D7%92%D7%95%D7%A8%20%D7%9E%D7%A8%D7%90%D7%A9%20%D7%9C%D7%95%D7%A4%20%D7%94%D7%90%20%D7%92%D7%99%D7%90%D7%A0%D7%92%20%D7%95%D7%99%D7%99%D7%98%D7%A0%D7%90%D7%9D"
+        }
+      ]
+    },
+    {
+      "date": "18.03.2026",
+      "country": "וייטנאם",
+      "location": "לופ הא גיאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "19.03.2026",
+      "country": "וייטנאם",
+      "location": "לופ הא גיאנג",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "20.03.2026",
+      "country": "תאילנד",
+      "location": "סאפה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "21.03.2026",
+      "country": "תאילנד",
+      "location": "סאפה",
+      "lodging": "",
+      "transfers": [],
+      "places": [
+        {
+          "name": "ביקור אצל מאמא",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%A7%D7%95%D7%A8%20%D7%90%D7%A6%D7%9C%20%D7%9E%D7%90%D7%9E%D7%90%20%D7%A1%D7%90%D7%A4%D7%94%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "מפלי הכסף",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A4%D7%9C%D7%99%20%D7%94%D7%9B%D7%A1%D7%A3%20%D7%A1%D7%90%D7%A4%D7%94%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "מעבר גן עדן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A2%D7%91%D7%A8%20%D7%92%D7%9F%20%D7%A2%D7%93%D7%9F%20%D7%A1%D7%90%D7%A4%D7%94%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "כפר קאט קאט",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%9B%D7%A4%D7%A8%20%D7%A7%D7%90%D7%98%20%D7%A7%D7%90%D7%98%20%D7%A1%D7%90%D7%A4%D7%94%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        },
+        {
+          "name": "הר פאנסיפאן",
+          "type": "אטרקציה",
+          "description": "מתוכנן לפי תוכנית הטיול בקובץ האקסל.",
+          "website": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%A8%20%D7%A4%D7%90%D7%A0%D7%A1%D7%99%D7%A4%D7%90%D7%9F%20%D7%A1%D7%90%D7%A4%D7%94%20%D7%AA%D7%90%D7%99%D7%9C%D7%A0%D7%93"
+        }
+      ]
+    },
+    {
+      "date": "22.03.2026",
+      "country": "תאילנד",
+      "location": "סאפה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "23.03.2026",
+      "country": "תאילנד",
+      "location": "סאפה",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "24.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "25.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "26.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "27.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "28.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "29.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "30.03.2026",
+      "country": "וייטנאם",
+      "location": "האנוי",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "31.03.2026",
+      "country": "יפן",
+      "location": "האנוי - טיסה ליפן",
+      "lodging": "",
+      "transfers": [],
+      "places": []
+    },
+    {
+      "date": "01.04.2026",
+      "country": "יפן",
+      "location": "האנוי - טיסה ליפן",
+      "lodging": "",
+      "transfers": [],
+      "places": []
     }
   ]
 }

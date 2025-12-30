@@ -1,5 +1,5 @@
 
-const VERSION = '12';
+const VERSION = (new URLSearchParams(location.search).get('v') || '16');
 const DATA_URL = 'itinerary.json?v=' + VERSION;
 
 function el(id){ return document.getElementById(id); }
