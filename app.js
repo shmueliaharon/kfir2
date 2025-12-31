@@ -1,5 +1,5 @@
 
-const VERSION = '18.3';
+const VERSION = '18.4';
 const DATA_URL = 'itinerary.json?v=' + VERSION;
 const COUNTRY_KEY = 'selected_country_v18_1';
 
@@ -74,8 +74,8 @@ function renderHome(data){
   hide(el('btnBack'));
 
   const q = (el('q').value || '').trim().toLowerCase();
-  const countryBar = el('countryBar');
   const selectedCountry = getSelectedCountry();
+  const countryBar = el('countryBar');
   const countries = Array.from(new Set((data.days || [])
     .map(d => (d.country || '').toString().trim())
     .filter(Boolean)));
