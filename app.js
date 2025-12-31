@@ -1,19 +1,11 @@
 
-const VERSION = '18';
+const VERSION = '17';
 const DATA_URL = 'itinerary.json?v=' + VERSION;
-const COUNTRY_KEY = 'selected_country_v18';
 
 function el(id){ return document.getElementById(id); }
 function show(x){ x.classList.remove('hidden'); }
 function hide(x){ x.classList.add('hidden'); }
 
-
-function getSelectedCountry(){
-  try { return localStorage.getItem(COUNTRY_KEY) || 'הכל'; } catch(e){ return 'הכל'; }
-}
-function setSelectedCountry(v){
-  try { localStorage.setItem(COUNTRY_KEY, v); } catch(e){}
-}
 function mapsSearchUrl(q){
   return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q || '');
 }
@@ -40,44 +32,20 @@ function dayLabel(day, idx){
 
 function renderHome(data){
   el('appTitle').textContent = data.title || 'מסלול הטיול שלי';
-  el('appSub').textContent = (selectedCountry === 'הכל') ? 'בחר יום כדי לראות פירוט' : ('מדינה נבחרת: ' + selectedCountry);
+  el('appSub').textContent = 'בחר יום כדי לראות פירוט';
   hide(el('btnBack'));
 
   const q = (el('q').value || '').trim().toLowerCase();
   const list = el('daysList');
-  const countryBar = el('countryBar');
-  const selectedCountry = getSelectedCountry();
-
-  const countries = Array.from(new Set((data.days || [])
-    .map(d => (d.country || '').toString().trim())
-    .filter(Boolean)));
-  countries.sort((a,b)=>a.localeCompare(b,'he'));
-  const allOptions = ['הכל', ...countries];
-
-  if (countryBar){
-    countryBar.innerHTML = allOptions.map(c => {
-      const cls = 'countryChip' + (c === selectedCountry ? ' isActive' : '');
-      return `<button class="${cls}" data-country="${c}">${c}</button>`;
-    }).join('');
-    countryBar.querySelectorAll('[data-country]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const c = btn.getAttribute('data-country') || 'הכל';
-        setSelectedCountry(c);
-        renderHome(data);
-      });
-    });
-  }
-
 
   const items = (data.days || []).map((day, idx) => ({ day, idx }))
     .filter(x => {
-      const countryOk = (selectedCountry === 'הכל') || ((x.day.country || '').toString().trim() === selectedCountry);
-      if (!countryOk) return false;
       if (!q) return true;
       const hay = [
         x.day.date, x.day.country, x.day.location, x.day.lodging,
         ...(x.day.transfers || []),
-        ...((x.day.places || []).map(p => p.name))
+        ...((x.day.places || []).map(p => p.name)),
+        ...((x.day.suggestions || []).map(p => p.name))
       ].join(' ').toLowerCase();
       return hay.includes(q);
     });
