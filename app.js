@@ -1,6 +1,7 @@
 
-const VERSION = '17';
+const VERSION = '18.1';
 const DATA_URL = 'itinerary.json?v=' + VERSION;
+const COUNTRY_KEY = 'selected_country_v18_1';
 
 function el(id){ return document.getElementById(id); }
 function show(x){ x.classList.remove('hidden'); }
@@ -23,6 +24,13 @@ async function loadData(){
   return await res.json();
 }
 
+
+function getSelectedCountry(){
+  try { return localStorage.getItem(COUNTRY_KEY) || 'הכל'; } catch(e){ return 'הכל'; }
+}
+function setSelectedCountry(v){
+  try { localStorage.setItem(COUNTRY_KEY, v); } catch(e){}
+}
 function dayLabel(day, idx){
   const d = day.date ? day.date : ('יום ' + (idx + 1));
   const c = day.country ? day.country : '';
@@ -32,14 +40,40 @@ function dayLabel(day, idx){
 
 function renderHome(data){
   el('appTitle').textContent = data.title || 'מסלול הטיול שלי';
-  el('appSub').textContent = 'בחר יום כדי לראות פירוט';
+  el('appSub').textContent = (selectedCountry === 'הכל') ? 'בחר יום כדי לראות פירוט' : ('מדינה נבחרת: ' + selectedCountry);
   hide(el('btnBack'));
 
   const q = (el('q').value || '').trim().toLowerCase();
+  const countryBar = el('countryBar');
+  const selectedCountry = getSelectedCountry();
+  const countries = Array.from(new Set((data.days || [])
+    .map(d => (d.country || '').toString().trim())
+    .filter(Boolean)));
+  countries.sort((a,b)=>a.localeCompare(b,'he'));
+  const allOptions = ['הכל', ...countries];
+
+  if (countryBar){
+    countryBar.innerHTML = allOptions.map(c => {
+      const cls = 'countryChip' + (c === selectedCountry ? ' isActive' : '');
+      return `<button type="button" class="${cls}" data-country="${c}">${c}</button>`;
+    }).join('');
+    countryBar.querySelectorAll('[data-country]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-country') || 'הכל';
+        setSelectedCountry(c);
+        renderHome(data);
+        window.scrollTo({top:0, behavior:'smooth'});
+      });
+    });
+  }
+
+
   const list = el('daysList');
 
   const items = (data.days || []).map((day, idx) => ({ day, idx }))
     .filter(x => {
+      const countryOk = (selectedCountry === 'הכל') || (((x.day.country || '').toString().trim()) === selectedCountry);
+      if (!countryOk) return false;
       if (!q) return true;
       const hay = [
         x.day.date, x.day.country, x.day.location, x.day.lodging,
