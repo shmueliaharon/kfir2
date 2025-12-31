@@ -1,5 +1,5 @@
 
-const VERSION = '18.2';
+const VERSION = '18.3';
 const DATA_URL = 'itinerary.json?v=' + VERSION;
 const COUNTRY_KEY = 'selected_country_v18_1';
 
@@ -7,16 +7,29 @@ function el(id){ return document.getElementById(id); }
 function show(x){ x.classList.remove('hidden'); }
 
 function showFatal(title, details){
-  const root = document.getElementById('app');
-  if (!root) return;
-  root.innerHTML = `
-    <div style="max-width:900px;margin:24px auto;padding:16px;background:rgba(255,255,255,0.92);border:1px solid rgba(15,23,42,0.14);border-radius:16px">
-      <div style="font-weight:900;font-size:18px;margin-bottom:8px">⚠️ ${title}</div>
-      <div style="white-space:pre-wrap;color:rgba(15,23,42,0.80);font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;font-size:12px;line-height:1.4">${details || ''}</div>
-      <div style="margin-top:10px;color:rgba(15,23,42,0.70);font-size:13px">טיפ: נסה לפתוח את האתר עם ?v=182 ולרענן.</div>
-    </div>
+  const host = document.getElementById('viewHome') || document.body;
+  const box = document.createElement('div');
+  box.style.maxWidth = '900px';
+  box.style.margin = '24px auto';
+  box.style.padding = '16px';
+  box.style.background = 'rgba(255,255,255,0.96)';
+  box.style.border = '1px solid rgba(15,23,42,0.14)';
+  box.style.borderRadius = '16px';
+  box.innerHTML = `
+    <div style="font-weight:900;font-size:18px;margin-bottom:8px">⚠️ ${title}</div>
+    <div style="white-space:pre-wrap;color:rgba(15,23,42,0.78);font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;font-size:12px;line-height:1.45">${details || ''}</div>
+    <div style="margin-top:10px;color:rgba(15,23,42,0.70);font-size:13px">פתח את האתר עם ?v=183 כדי לעקוף מטמון.</div>
   `;
+  host.innerHTML = '';
+  host.appendChild(box);
 }
+window.addEventListener('error', (e) => {
+  try{ showFatal('שגיאה בסקריפט', (e && (e.error && (e.error.stack||e.error.message))) || (e && e.message) || String(e)); }catch(_){}
+});
+window.addEventListener('unhandledrejection', (e) => {
+  try{ showFatal('שגיאה בהבטחה (Promise)', (e && (e.reason && (e.reason.stack||e.reason.message))) || String(e && e.reason || e)); }catch(_){}
+});
+
 function hide(x){ x.classList.add('hidden'); }
 
 function mapsSearchUrl(q){
@@ -100,6 +113,11 @@ function renderHome(data){
       ].join(' ').toLowerCase();
       return hay.includes(q);
     });
+
+  if(items.length===0){
+    list.innerHTML = `<div class="emptyState">לא נמצאו ימים להצגה. בדוק סינון מדינה או חיפוש.</div>`;
+    return;
+  }
 
   list.innerHTML = items.map(({day, idx}) => {
     const loc = day.location || 'לא צוין';
@@ -223,6 +241,7 @@ function renderDay(data, idx){
 }
 
 async function main(){
+  try{
   const data = await loadData();
 
   el('btnBack').addEventListener('click', () => { location.hash = '#/'; });
@@ -244,6 +263,10 @@ async function main(){
 
   window.addEventListener('hashchange', route);
   route();
+  }catch(err){
+    console.error(err);
+    showFatal('שגיאה בטעינה', String(err && (err.stack||err.message||err)));
+  }
 }
 
 main();
